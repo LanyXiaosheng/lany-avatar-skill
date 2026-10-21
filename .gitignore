@@ -1,0 +1,16 @@
+# Local configuration and generated task data
+.env
+.env.*
+!.env.example
+.codex/
+lany-assets/
+backups/
+tmp/
+temp/
+
+# Runtime and operating-system files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+Desktop.ini

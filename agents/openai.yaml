@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lany 头像"
+  short_description: "保留小生身份，按风格目录精修头像或制作角色试样，默认只交付一版"
+  default_prompt: "使用 $lany-avatar，以当前确认头像为身份参考，按指定风格或保留现有画风，默认只生成一版，并核对对应构图和裁切。"
