@@ -6,24 +6,25 @@
 
 - 本轮身份与修改要求优先；未指定媒介的新头像使用 `soft-handdrawn`。
 - 默认都是上半身头像。样例里的衣服、配饰、挥手或全身布局不决定本次构图；旧全身样例只能借鉴媒介。
-- 图片均为媒介参考，不是新默认身份。2026-10-26 的四张上半身候选尚未获用户选定。
+- 图片均为媒介参考，不是新默认身份。2026-10-26 的四张上半身候选为追加版本，与各自原样例并存，尚未获用户选定。
+- 明确选择原版或追加版时使用相应样例；未指定时按当前任务选择一个合适版本，不把两版强制混画，也不删除或替换原资源。
 - 配色以用户要求或局部编辑的保留条件优先，否则按本表；背景满版，不加黑圈或两色角。
 - 自定义新风格无需强行归入某个 ID；仍保持身份、头像裁切和默认单张。多风格请求分别生成，不混成一张海报。
 
 ## 编号索引
 
-| 编号 | ID | 媒介样例 | 默认背景 | 状态 |
-| --- | --- | --- | --- | --- |
-| 01 | pixel | [像素参考](../assets/lany-avatar-reference.png) | 主题黄绿 | 兼容保留，仅明确选择 |
-| 02 | soft-handdrawn | [自然手绘上半身](../assets/upperbody/soft-handdrawn.png) | 雾蓝灰 | 默认媒介；样例是候选 |
-| 03 | cel-anime | [赛璐璐上半身](../assets/upperbody/cel-anime.png) | 主题黄绿 | 当前上半身候选 |
-| 04 | designer-vinyl | [3D 潮玩旧头像](../assets/styles/designer-vinyl.png) | 主题黄绿 | 旧媒介候选 |
-| 05 | screenprint | [丝网印刷旧头像](../assets/styles/screenprint.png) | 主题黄绿 | 旧媒介候选 |
-| 06 | storybook-3d | [温暖动画 3D 上半身](../assets/upperbody/storybook-3d.png) | 主题黄绿 | 当前上半身候选 |
-| 07 | emoji-3d | [简洁 3D 上半身](../assets/upperbody/emoji-3d.png) | 主题黄绿 | 当前上半身候选 |
-| 08 | photo-style | [虚构人物写真样例](../assets/styles/photo-style.png) | 主题黄绿 | 不是本人照片 |
-| 09 | plush | [旧完整玩偶媒介样例](../assets/styles/plush.png) | 主题黄绿 | 未制作的概念；头像仍默认上半身 |
-| 10 | flat-comic | [旧全身漫画媒介样例](../assets/styles/flat-comic.png) | 暖米白 | 历史候选；头像仍默认上半身 |
+| 编号 | ID | 原样例（保留） | 追加上半身版 | 默认背景 | 状态 |
+| --- | --- | --- | --- | --- | --- |
+| 01 | pixel | [原像素](../assets/lany-avatar-reference.png) | — | 主题黄绿 | 兼容保留，仅明确选择 |
+| 02 | soft-handdrawn | [原自然手绘](../assets/lany-avatar-handdrawn-reference.png) | [追加版](../assets/upperbody/soft-handdrawn.png) | 雾蓝灰 | 默认媒介；追加样例未选定 |
+| 03 | cel-anime | [原赛璐璐](../assets/styles/cel-anime.png) | [追加版](../assets/upperbody/cel-anime.png) | 主题黄绿 | 原版与追加版并存 |
+| 04 | designer-vinyl | [原 3D 潮玩头像](../assets/styles/designer-vinyl.png) | — | 主题黄绿 | 原候选保留 |
+| 05 | screenprint | [原丝网印刷头像](../assets/styles/screenprint.png) | — | 主题黄绿 | 原候选保留 |
+| 06 | storybook-3d | [原动画 3D 头像](../assets/styles/storybook-3d.png) | [追加版](../assets/upperbody/storybook-3d.png) | 主题黄绿 | 原版与追加版并存 |
+| 07 | emoji-3d | [原简洁 3D 头像](../assets/styles/emoji-3d.png) | [追加版](../assets/upperbody/emoji-3d.png) | 主题黄绿 | 原版与追加版并存 |
+| 08 | photo-style | [原写真样例](../assets/styles/photo-style.png) | — | 主题黄绿 | 不是本人照片 |
+| 09 | plush | [原完整玩偶样例](../assets/styles/plush.png) | — | 主题黄绿 | 概念保留；头像仍默认上半身 |
+| 10 | flat-comic | [原全身漫画样例](../assets/styles/flat-comic.png) | — | 暖米白 | 原候选保留；头像仍默认上半身 |
 
 ## pixel
 
@@ -67,4 +68,4 @@
 
 ## 参考与复用
 
-四张当前候选的配饰与提示词见 [上半身示例](upperbody-examples.md)。这些设置是示例，不是各风格的永久制服。所有本包 PNG 实际为 1254×1254，不宣称原生 2K/4K；历史图片原样保留但不作为当前主画廊。
+四张追加候选的配饰与提示词见 [上半身示例](upperbody-examples.md)。这些设置是示例，不是各风格的永久制服。所有本包 PNG 实际为 1254×1254，不宣称原生 2K/4K；原图文继续完整展示在 README 中，追加版在其后独立展示。
