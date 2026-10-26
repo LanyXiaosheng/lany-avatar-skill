@@ -1,4 +1,4 @@
 interface:
   display_name: "Lany 头像"
-  short_description: "保留小生身份，按风格目录精修头像或制作角色试样，默认只交付一版"
-  default_prompt: "使用 $lany-avatar，以当前确认头像为身份参考，按指定风格或保留现有画风，默认只生成一版，并核对对应构图和裁切。"
+  short_description: "自然手绘默认的上半身头像，保留小生身份，多风格可选，配饰按需，默认单张"
+  default_prompt: "使用 $lany-avatar，保留小生身份，默认自然手绘，生成一张正方形上半身头像，穿搭和配饰按本次需要选择。"
